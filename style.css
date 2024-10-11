@@ -1,0 +1,40 @@
+@font-face {
+    font-family: questrial;
+    src: url(fonts/Questrial/Questrial-Regular.ttf);
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+.txt{
+    font-family: "questrial";
+    color: rgb(255, 190, 70);
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#barrett{
+    transition: 500ms;
+    color: rgb(255, 190, 70);
+}
+#barrett:hover{
+    color: rgb(255, 255, 255);
+}
+.btn{
+    font-family: "questrial";
+    transition: 500ms;
+    width: 9vw;
+    height: 2vw;
+    border-radius: 10vw;
+    border: 2px solid rgb(255, 190, 70);
+    cursor: pointer;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 190, 70);
+    font-size: 1vw;
+    margin: 0.5vw;
+}
+.btn:hover{
+    color: rgb(20, 20, 20);
+    background-color: rgb(255, 190, 70);
+}
